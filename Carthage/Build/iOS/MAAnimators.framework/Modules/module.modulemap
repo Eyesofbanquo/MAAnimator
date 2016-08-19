@@ -1,0 +1,10 @@
+framework module MAAnimators {
+  umbrella header "MAAnimators.h"
+
+  export *
+  module * { export * }
+}
+
+module MAAnimators.Swift {
+    header "MAAnimators-Swift.h"
+}

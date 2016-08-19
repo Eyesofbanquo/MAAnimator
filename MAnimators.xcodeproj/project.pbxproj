@@ -15,6 +15,17 @@
 		60A9F2A61D66CAE9008EE2DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60A9F2A41D66CAE9008EE2DC /* LaunchScreen.storyboard */; };
 		60A9F2B11D66CAEA008EE2DC /* MAnimatorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A9F2B01D66CAEA008EE2DC /* MAnimatorsTests.swift */; };
 		60A9F2BC1D66CAEA008EE2DC /* MAnimatorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A9F2BB1D66CAEA008EE2DC /* MAnimatorsUITests.swift */; };
+		60A9F2CE1D66D5DE008EE2DC /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60A9F2CD1D66D5DE008EE2DC /* Quick.framework */; };
+		60A9F2D01D66D5E4008EE2DC /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60A9F2CF1D66D5E4008EE2DC /* Nimble.framework */; };
+		60A9F2D11D66D5F2008EE2DC /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60A9F2CF1D66D5E4008EE2DC /* Nimble.framework */; };
+		60A9F2D21D66D5F2008EE2DC /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60A9F2CD1D66D5DE008EE2DC /* Quick.framework */; };
+		60A9F2D51D66DCDA008EE2DC /* MAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A9F2D41D66DCDA008EE2DC /* MAnimator.swift */; };
+		60A9F2DE1D671C24008EE2DC /* MAAnimators.h in Headers */ = {isa = PBXBuildFile; fileRef = 60A9F2DD1D671C24008EE2DC /* MAAnimators.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60A9F2E51D671C24008EE2DC /* MAAnimators.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60A9F2DB1D671C24008EE2DC /* MAAnimators.framework */; };
+		60A9F2EC1D671C24008EE2DC /* MAAnimatorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A9F2EB1D671C24008EE2DC /* MAAnimatorsTests.swift */; };
+		60A9F2F01D671C24008EE2DC /* MAAnimators.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60A9F2DB1D671C24008EE2DC /* MAAnimators.framework */; };
+		60A9F2F11D671C24008EE2DC /* MAAnimators.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 60A9F2DB1D671C24008EE2DC /* MAAnimators.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		60A9F2F91D671C87008EE2DC /* MAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A9F2D41D66DCDA008EE2DC /* MAnimator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +43,42 @@
 			remoteGlobalIDString = 60A9F2941D66CAE9008EE2DC;
 			remoteInfo = MAnimators;
 		};
+		60A9F2E61D671C24008EE2DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60A9F28D1D66CAE9008EE2DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60A9F2DA1D671C24008EE2DC;
+			remoteInfo = MAAnimators;
+		};
+		60A9F2E81D671C24008EE2DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60A9F28D1D66CAE9008EE2DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60A9F2941D66CAE9008EE2DC;
+			remoteInfo = MAnimators;
+		};
+		60A9F2EE1D671C24008EE2DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60A9F28D1D66CAE9008EE2DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60A9F2DA1D671C24008EE2DC;
+			remoteInfo = MAAnimators;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		60A9F2F51D671C24008EE2DC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				60A9F2F11D671C24008EE2DC /* MAAnimators.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		60A9F2951D66CAE9008EE2DC /* MAnimators.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAnimators.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +95,17 @@
 		60A9F2B71D66CAEA008EE2DC /* MAnimatorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAnimatorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60A9F2BB1D66CAEA008EE2DC /* MAnimatorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAnimatorsUITests.swift; sourceTree = "<group>"; };
 		60A9F2BD1D66CAEA008EE2DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60A9F2C91D66D445008EE2DC /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "Carthage/Checkouts/Nimble/build/Debug-iphoneos/Nimble.framework"; sourceTree = "<group>"; };
+		60A9F2CB1D66D44B008EE2DC /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = "Carthage/Checkouts/Quick/build/Debug-iphoneos/Quick.framework"; sourceTree = "<group>"; };
+		60A9F2CD1D66D5DE008EE2DC /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = "../../../Library/Developer/Xcode/DerivedData/MAnimators-giujuacvztztzgbhkhhhacnljftx/Build/Products/Debug-iphonesimulator/Quick.framework"; sourceTree = "<group>"; };
+		60A9F2CF1D66D5E4008EE2DC /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "../../../Library/Developer/Xcode/DerivedData/MAnimators-giujuacvztztzgbhkhhhacnljftx/Build/Products/Debug-iphonesimulator/Nimble.framework"; sourceTree = "<group>"; };
+		60A9F2D41D66DCDA008EE2DC /* MAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAnimator.swift; sourceTree = "<group>"; };
+		60A9F2DB1D671C24008EE2DC /* MAAnimators.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MAAnimators.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60A9F2DD1D671C24008EE2DC /* MAAnimators.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAAnimators.h; sourceTree = "<group>"; };
+		60A9F2DF1D671C24008EE2DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60A9F2E41D671C24008EE2DC /* MAAnimatorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAAnimatorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60A9F2EB1D671C24008EE2DC /* MAAnimatorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAAnimatorsTests.swift; sourceTree = "<group>"; };
+		60A9F2ED1D671C24008EE2DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +113,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60A9F2D01D66D5E4008EE2DC /* Nimble.framework in Frameworks */,
+				60A9F2F01D671C24008EE2DC /* MAAnimators.framework in Frameworks */,
+				60A9F2CE1D66D5DE008EE2DC /* Quick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +123,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60A9F2D11D66D5F2008EE2DC /* Nimble.framework in Frameworks */,
+				60A9F2D21D66D5F2008EE2DC /* Quick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,12 +135,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		60A9F2D71D671C24008EE2DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60A9F2E11D671C24008EE2DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60A9F2E51D671C24008EE2DC /* MAAnimators.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		60A9F28C1D66CAE9008EE2DC = {
 			isa = PBXGroup;
 			children = (
+				60A9F2DC1D671C24008EE2DC /* MAAnimators */,
+				60A9F2EA1D671C24008EE2DC /* MAAnimatorsTests */,
+				60A9F2D31D66D624008EE2DC /* Frameworks */,
+				60A9F2CB1D66D44B008EE2DC /* Quick.framework */,
+				60A9F2C91D66D445008EE2DC /* Nimble.framework */,
 				60A9F2971D66CAE9008EE2DC /* MAnimators */,
 				60A9F2AF1D66CAE9008EE2DC /* MAnimatorsTests */,
 				60A9F2BA1D66CAEA008EE2DC /* MAnimatorsUITests */,
@@ -92,6 +174,8 @@
 				60A9F2951D66CAE9008EE2DC /* MAnimators.app */,
 				60A9F2AC1D66CAE9008EE2DC /* MAnimatorsTests.xctest */,
 				60A9F2B71D66CAEA008EE2DC /* MAnimatorsUITests.xctest */,
+				60A9F2DB1D671C24008EE2DC /* MAAnimators.framework */,
+				60A9F2E41D671C24008EE2DC /* MAAnimatorsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,6 +190,7 @@
 				60A9F2A41D66CAE9008EE2DC /* LaunchScreen.storyboard */,
 				60A9F2A71D66CAE9008EE2DC /* Info.plist */,
 				60A9F29F1D66CAE9008EE2DC /* MAnimators.xcdatamodeld */,
+				60A9F2D41D66DCDA008EE2DC /* MAnimator.swift */,
 			);
 			path = MAnimators;
 			sourceTree = "<group>";
@@ -128,7 +213,45 @@
 			path = MAnimatorsUITests;
 			sourceTree = "<group>";
 		};
+		60A9F2D31D66D624008EE2DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60A9F2CF1D66D5E4008EE2DC /* Nimble.framework */,
+				60A9F2CD1D66D5DE008EE2DC /* Quick.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60A9F2DC1D671C24008EE2DC /* MAAnimators */ = {
+			isa = PBXGroup;
+			children = (
+				60A9F2DD1D671C24008EE2DC /* MAAnimators.h */,
+				60A9F2DF1D671C24008EE2DC /* Info.plist */,
+			);
+			path = MAAnimators;
+			sourceTree = "<group>";
+		};
+		60A9F2EA1D671C24008EE2DC /* MAAnimatorsTests */ = {
+			isa = PBXGroup;
+			children = (
+				60A9F2EB1D671C24008EE2DC /* MAAnimatorsTests.swift */,
+				60A9F2ED1D671C24008EE2DC /* Info.plist */,
+			);
+			path = MAAnimatorsTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		60A9F2D81D671C24008EE2DC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60A9F2DE1D671C24008EE2DC /* MAAnimators.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		60A9F2941D66CAE9008EE2DC /* MAnimators */ = {
@@ -138,10 +261,12 @@
 				60A9F2911D66CAE9008EE2DC /* Sources */,
 				60A9F2921D66CAE9008EE2DC /* Frameworks */,
 				60A9F2931D66CAE9008EE2DC /* Resources */,
+				60A9F2F51D671C24008EE2DC /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				60A9F2EF1D671C24008EE2DC /* PBXTargetDependency */,
 			);
 			name = MAnimators;
 			productName = MAnimators;
@@ -184,6 +309,43 @@
 			productReference = 60A9F2B71D66CAEA008EE2DC /* MAnimatorsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		60A9F2DA1D671C24008EE2DC /* MAAnimators */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60A9F2F21D671C24008EE2DC /* Build configuration list for PBXNativeTarget "MAAnimators" */;
+			buildPhases = (
+				60A9F2D61D671C24008EE2DC /* Sources */,
+				60A9F2D71D671C24008EE2DC /* Frameworks */,
+				60A9F2D81D671C24008EE2DC /* Headers */,
+				60A9F2D91D671C24008EE2DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MAAnimators;
+			productName = MAAnimators;
+			productReference = 60A9F2DB1D671C24008EE2DC /* MAAnimators.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		60A9F2E31D671C24008EE2DC /* MAAnimatorsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60A9F2F61D671C24008EE2DC /* Build configuration list for PBXNativeTarget "MAAnimatorsTests" */;
+			buildPhases = (
+				60A9F2E01D671C24008EE2DC /* Sources */,
+				60A9F2E11D671C24008EE2DC /* Frameworks */,
+				60A9F2E21D671C24008EE2DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60A9F2E71D671C24008EE2DC /* PBXTargetDependency */,
+				60A9F2E91D671C24008EE2DC /* PBXTargetDependency */,
+			);
+			name = MAAnimatorsTests;
+			productName = MAAnimatorsTests;
+			productReference = 60A9F2E41D671C24008EE2DC /* MAAnimatorsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -205,6 +367,13 @@
 						CreatedOnToolsVersion = 7.3.1;
 						TestTargetID = 60A9F2941D66CAE9008EE2DC;
 					};
+					60A9F2DA1D671C24008EE2DC = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					60A9F2E31D671C24008EE2DC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 60A9F2941D66CAE9008EE2DC;
+					};
 				};
 			};
 			buildConfigurationList = 60A9F2901D66CAE9008EE2DC /* Build configuration list for PBXProject "MAnimators" */;
@@ -223,6 +392,8 @@
 				60A9F2941D66CAE9008EE2DC /* MAnimators */,
 				60A9F2AB1D66CAE9008EE2DC /* MAnimatorsTests */,
 				60A9F2B61D66CAEA008EE2DC /* MAnimatorsUITests */,
+				60A9F2DA1D671C24008EE2DC /* MAAnimators */,
+				60A9F2E31D671C24008EE2DC /* MAAnimatorsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -252,6 +423,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		60A9F2D91D671C24008EE2DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60A9F2E21D671C24008EE2DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -261,6 +446,7 @@
 			files = (
 				60A9F29B1D66CAE9008EE2DC /* ViewController.swift in Sources */,
 				60A9F2A11D66CAE9008EE2DC /* MAnimators.xcdatamodeld in Sources */,
+				60A9F2D51D66DCDA008EE2DC /* MAnimator.swift in Sources */,
 				60A9F2991D66CAE9008EE2DC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +467,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		60A9F2D61D671C24008EE2DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60A9F2F91D671C87008EE2DC /* MAnimator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60A9F2E01D671C24008EE2DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60A9F2EC1D671C24008EE2DC /* MAAnimatorsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -293,6 +495,21 @@
 			isa = PBXTargetDependency;
 			target = 60A9F2941D66CAE9008EE2DC /* MAnimators */;
 			targetProxy = 60A9F2B81D66CAEA008EE2DC /* PBXContainerItemProxy */;
+		};
+		60A9F2E71D671C24008EE2DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60A9F2DA1D671C24008EE2DC /* MAAnimators */;
+			targetProxy = 60A9F2E61D671C24008EE2DC /* PBXContainerItemProxy */;
+		};
+		60A9F2E91D671C24008EE2DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60A9F2941D66CAE9008EE2DC /* MAnimators */;
+			targetProxy = 60A9F2E81D671C24008EE2DC /* PBXContainerItemProxy */;
+		};
+		60A9F2EF1D671C24008EE2DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60A9F2DA1D671C24008EE2DC /* MAAnimators */;
+			targetProxy = 60A9F2EE1D671C24008EE2DC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -403,7 +620,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Nimble/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Quick/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = MAnimators/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.80db.MAnimators;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -414,7 +638,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Nimble/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Quick/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = MAnimators/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.80db.MAnimators;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -467,6 +698,70 @@
 			};
 			name = Release;
 		};
+		60A9F2F31D671C24008EE2DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MAAnimators/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.80db.MAAnimators;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		60A9F2F41D671C24008EE2DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MAAnimators/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.80db.MAAnimators;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		60A9F2F71D671C24008EE2DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MAAnimatorsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.80db.MAAnimatorsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MAnimators.app/MAnimators";
+			};
+			name = Debug;
+		};
+		60A9F2F81D671C24008EE2DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MAAnimatorsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.80db.MAAnimatorsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MAnimators.app/MAnimators";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -486,6 +781,7 @@
 				60A9F2C21D66CAEA008EE2DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60A9F2C31D66CAEA008EE2DC /* Build configuration list for PBXNativeTarget "MAnimatorsTests" */ = {
 			isa = XCConfigurationList;
@@ -494,12 +790,30 @@
 				60A9F2C51D66CAEA008EE2DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60A9F2C61D66CAEA008EE2DC /* Build configuration list for PBXNativeTarget "MAnimatorsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				60A9F2C71D66CAEA008EE2DC /* Debug */,
 				60A9F2C81D66CAEA008EE2DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60A9F2F21D671C24008EE2DC /* Build configuration list for PBXNativeTarget "MAAnimators" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60A9F2F31D671C24008EE2DC /* Debug */,
+				60A9F2F41D671C24008EE2DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		60A9F2F61D671C24008EE2DC /* Build configuration list for PBXNativeTarget "MAAnimatorsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60A9F2F71D671C24008EE2DC /* Debug */,
+				60A9F2F81D671C24008EE2DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

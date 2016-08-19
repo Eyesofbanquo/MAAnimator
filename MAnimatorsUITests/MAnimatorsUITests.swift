@@ -33,4 +33,19 @@ class MAnimatorsUITests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
     
+    /** Check to see if the button with text 'say hello' is tapped **/
+    func testSayHello(){
+        let app = XCUIApplication()
+        app.buttons["say hello"].tap()
+    }
+    
+    func testSearchFunction(){
+        
+        
+        let app = XCUIApplication()
+        let sayHelloElementsQuery = app.otherElements.containingType(.Button, identifier:"say hello")
+        sayHelloElementsQuery.childrenMatchingType(.TextField).element.tap()
+        XCTAssert(sayHelloElementsQuery.childrenMatchingType(.TextField).element.value as? String == "")
+    }
+    
 }

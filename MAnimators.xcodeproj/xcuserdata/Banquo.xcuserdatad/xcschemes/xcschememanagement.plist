@@ -4,7 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>MAnimators.xcscheme</key>
+		<key>MAAnimators.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>MAnimators.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -23,6 +28,16 @@
 			<true/>
 		</dict>
 		<key>60A9F2B61D66CAEA008EE2DC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>60A9F2DA1D671C24008EE2DC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>60A9F2E31D671C24008EE2DC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
